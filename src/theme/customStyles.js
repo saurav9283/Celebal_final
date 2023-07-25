@@ -7,7 +7,7 @@ export const containerStyle = {
 
 export const weatherBoxStyle = {
     
-    maxWidth: "600px",
+    maxWidth: "800px",
     width: "100%",
     px: { xs: 3, sm: 5 },
     py: { xs: 4, sm: 6 },
@@ -18,4 +18,6 @@ export const weatherBoxStyle = {
     boxShadow: "0 8px 30px 0 rgba(31, 38, 135, 0.37)",
     backdropFilter: "blur(8.5px)",
     overflow: "hidden",
+    marginLeft: "15%",
+    marginTop: "2.5%",
 };
