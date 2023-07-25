@@ -27,7 +27,7 @@ function Auth() {
                   placeholder="xyz@gmail.com"
                 />
                 <p>Password</p>
-                <input type="password" required id="password" />
+                <input type="password" required id="password" placeholder="Password"/>
                 <a href="/" className="forgot">
                   Forgot password?
                 </a>
