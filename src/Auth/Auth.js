@@ -34,6 +34,7 @@ function Auth() {
                 <button className="submit" type="submit">
                   Sign In
                 </button>
+                <button className="skipLogin" onClick={handelSubmit}>Skip - LOGIN</button>
               </form>
             </div>
             <p className="ifnotaccount">
