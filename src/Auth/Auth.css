@@ -4,6 +4,7 @@
     height: 100%;
     width: 100%;
     background: #F5F5F5;
+
 }
 .sign{
     font-size: 20px;
@@ -33,6 +34,7 @@
     margin-top: 20px;
     background: #FFFFFF;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .form p{
@@ -95,12 +97,12 @@
 .ifnotaccount{
     margin-top: 304px;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 .ifnotaccount span{
     color: blue;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 @media  (min-width: 800px) and  (max-width:1000px){
@@ -145,6 +147,28 @@
     .sign p{
         font-size: 13px;
     }  
+    .submit{
+        margin-left: 30px;
+        margin-top: 20px;
+        height: 32px;
+        width: 160px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .skipLogin{
+        margin-left: 30px;
+        margin-top: 20px;
+        height: 32px;
+        width: 180px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
 }
 
  @media  (min-width: 499px) and  (max-width:799px){
@@ -165,6 +189,17 @@
         margin-top: 20px;
         background: #FFFFFF;
         border-radius: 20px;
+    }
+    .skipLogin{
+        margin-left: 220px;
+        margin-top: -20px;
+        height: 32px;
+        width: 160px;
+        background-color:black;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
     }
     .form p{
         font-family: 'Lato';
@@ -218,6 +253,17 @@
         font-family: 'Lato';
         margin-left: 30px;
         font-size: 20px;
+    }
+    .skipLogin{
+        margin-left: 230px;
+        margin-top: -30px;
+        height: 32px;
+        width: 150px;
+        background-color:black;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
     }
     .form a{
         font-size: 13px;
