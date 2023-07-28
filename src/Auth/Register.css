@@ -1,0 +1,32 @@
+.Register
+{
+    background-color: #f3f3f3;
+    width: 32%;
+    margin-top: 130px;
+    margin-left: 400px;
+}
+
+.form1
+{
+    margin-left: 50px;
+}
+.username
+{
+    border-radius: 5px;
+    height: 25px;
+    width: 300px;
+}
+.sub_btn
+{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-right: 100%;
+    cursor: pointer;
+}
+.back
+{
+    color: blue;
+}
+

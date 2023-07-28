@@ -9,6 +9,9 @@ function Auth() {
   function handelSubmit() {
     navigate("WeatherBox/");
   }
+  function handelRegister(){
+    navigate("Register/");
+  }
   return (
     <>
       <div className="right-form">
@@ -37,11 +40,20 @@ function Auth() {
                 <button className="skipLogin" onClick={handelSubmit}>Skip - LOGIN</button>
               </form>
             </div>
-            <p className="ifnotaccount">
-              Don't have an account?<span>Register here</span>
+            <p className="ifnotaccount" onClick={handelRegister}>
+              Don't have an account?<span >Register here 👈</span>
             </p>
           </div>
         </div>
+        <div className='submit-tag'>
+              <p>Project Created By: Saurav kumar</p>
+              <a href='https://github.com/saurav9283' target='_blank' rel="noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png" width="32" height="32" alt="Github"></img>
+              </a>
+              <a href='https://www.linkedin.com/in/saurav9283/' target='_blank' rel="noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="32" height="32" alt="LinkedIn"></img>
+              </a>
+            </div>
     </>
   );
 }

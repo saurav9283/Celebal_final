@@ -95,7 +95,7 @@
 .ifnotaccount{
     margin-top: 304px;
     margin-left: 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .ifnotaccount span{
     color: blue;
@@ -239,22 +239,39 @@
     .ifnotaccount{
         margin-top: 304px;
         margin-left: 10px;
-        font-size: 13px;
+        font-size: 15px;
     }
     .ifnotaccount span{
         color: blue;
         cursor: pointer;
-        font-size: 13px;
+        font-size: 15px;
     }
    .ifnotaccount{
        margin-top: 285px;
        margin-left: 10px;
-       font-size: 13px;
+       font-size: 15px;
     }
    .ifnotaccount span{
         color: blue;
         cursor: pointer;
-        font-size: 13px;
+        font-size: 15px;
     }
     
 } 
+
+
+
+.submit-tag{
+    position: absolute;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+    right:1em;
+    bottom:1em;
+    color: whitesmoke;
+}
+
+.submit-tag p{
+    color: black;
+}
